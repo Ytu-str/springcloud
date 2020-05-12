@@ -1,0 +1,11 @@
+server:
+  port: 3344
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Ytu-str/springcloud-config.git
+  application:
+    name: springcloud-config-server
+    #连接远程仓库

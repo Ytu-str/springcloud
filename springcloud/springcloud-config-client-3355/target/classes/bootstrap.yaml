@@ -1,0 +1,9 @@
+#系统级别配置  bootstrap
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:3344
+      name: config-client  #从git上读取的文件名
+      profile: dev
+      label: master
